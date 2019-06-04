@@ -814,11 +814,15 @@ html
    }
    .Gallery .Image img
    { 
-    margin-left:5%;
+    width:330px;
+    height:200px;
+    margin-right:-5%
    }
    .Gallery .Image .Hover
    {
-    margin-left:5%;
+    width:0px;
+    height:200px;
+   
    }
    .Form h1
    {
