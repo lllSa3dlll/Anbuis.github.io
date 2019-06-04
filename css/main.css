@@ -764,6 +764,10 @@ html
     margin-right:20%;
     margin-bottom:15%;
    }
+   .Features h2
+   {
+    font-size:5px;
+   }
    .Features .Image img , .Features .Image2 img
    {
     width:330px;
@@ -793,8 +797,8 @@ html
    }
    .Pricing-Table h1
    {
-       margin-left:5%;
-       margin-right:5%;
+       margin-left:0%;
+       margin-right:0%;
        margin-bottom:5%;
    }
    .Pricing-Table .content
@@ -804,17 +808,17 @@ html
    }
    .Gallery h1
    {
-    margin-left:25%;
-    margin-right:25%;
+    margin-left:20%;
+    margin-right:20%;
     margin-bottom:2%;
    }
    .Gallery .Image img
    { 
-    margin-left:0%;
+    margin-left:8%;
    }
    .Gallery .Image .Hover
    {
-    margin-left:0%;
+    margin-left:8%;
    }
    .Form h1
    {
