@@ -1,0 +1,1060 @@
+body
+{
+    padding:0;
+    margin:0;
+    background:#262626;
+    font-family: 'Poiret One', cursive;
+    overflow:hidden
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+/*Start of Loader section*/
+
+.loader
+ {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#1b1d1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader > img 
+{
+    width: 500px;
+    height:400px;
+    
+}
+
+.loader.hidden
+ {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+
+/*End of Loader Section*/
+
+
+
+
+/*Start of Navigation bar section*/
+.navbar
+{
+    padding:10px;
+    background:#161616;
+    margin-bottom:-5%
+}
+.navbar-brand
+{
+    font-size:10px;
+    margin-left:5%
+}
+.nav-link
+{
+    color:white;
+    font-size:20px;
+    margin:0 10px;
+    font-weight: bold;
+}
+.nav-link:hover
+{
+    color:#dbc285;
+    transition:0.5s;
+}
+
+.navbar span
+{
+    color:white;
+}
+/*End of Navigation bar section*/
+
+
+
+
+/*Start of Carousel section*/
+.carousel-caption
+{
+   top:25%;
+   padding:10px;
+}
+
+.carousel-caption h2
+{
+    font-size:100px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    color:#dbc285;
+    
+}
+.carousel-caption h2 span
+{
+    opacity: 0;
+    display:inline-block;
+    animation:animate 3s linear forwards;
+}
+.carousel-caption h2 span:nth-child(1)
+{
+    animation-delay: 3s;
+}
+.carousel-caption h2 span:nth-child(2)
+{
+    animation-delay: 6s;
+}
+.carousel-caption h2 span:nth-child(3)
+{
+    animation-delay: 9s;
+}
+.carousel-caption h2 span:nth-child(4)
+{
+    animation-delay: 12s;
+}
+.carousel-caption h2 span:nth-child(5)
+{
+    animation-delay: 15s;
+}
+.carousel-caption h2 span:nth-child(6)
+{
+    animation-delay: 18s;
+}
+.carousel-caption h4
+{
+    font-size:35px;
+    margin-bottom:2%;
+    font-weight: bold;
+    opacity:0;
+    animation:animate2 18s linear forwards;
+}
+.carousel-caption .button
+{
+    background:none;
+    border:none;
+    border-radius:20px;
+    margin:10px;
+    opacity:0;
+    animation:animate3 16.5s linear forwards;
+}
+.carousel-caption .button a
+{
+    text-decoration: none;
+    color:#ffffff;
+    padding-right:35px;
+    padding-left:35px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border:2px solid #ffffff;
+    border-radius:30px;
+    font-size:25px;
+    opacity:0;
+    animation:animate3 16.5s linear forwards;
+    font-weight: bold
+}
+.carousel-caption .button a:hover
+{
+    background-color:#dbc285;
+    border:2px solid #dbc285;
+    transition:0.9s;
+    color:rgb(34, 34, 34)
+}
+.carousel-inner
+{
+    margin-top:-2%
+}
+.carousel-inner .carousel-item img
+{
+    animation:zoom 35s linear forwards
+}
+
+/*End of Carousel section*/
+
+/*Start of About us section*/
+
+.About-Us
+{
+    padding-top:180px;
+    padding-bottom:110px;
+    margin-top:10%;
+}
+.About-Us h1
+{
+    color:#dbc285;
+    font-size:50px;
+    font-weight: bold;
+    padding:10px;
+    border:2px solid rgb(51, 51, 51);
+    margin-left:40%;
+    margin-right:40%;
+    margin-bottom:3%;
+    border-radius:40px;
+}
+.About-Us .content p
+{
+    color:rgb(126, 126, 126);
+    font-size:18px;
+    padding:10px;
+  
+}
+
+.About-Us .content span
+{
+    color:#dbc285;
+    font-size:40px;
+    font-weight: bold;
+    margin-top: 10%;
+}
+.About-Us .content 
+{
+    color:#dbc285;
+    font-size:40px;
+    font-weight: bold;
+    margin:0 2%;
+}
+.About-Us .content h5
+{
+    color:#ffffff;
+    font-size:20px;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-bottom: 3%
+}
+
+
+/*End of About us section*/
+
+
+
+/*Start of Features section*/
+.Features
+{
+    padding-top:180px;
+    padding-bottom:5px;
+    margin-top:10%;
+    background:#202020;
+}
+.Features h1
+{
+    color:#dbc285;
+    font-size:50px;
+    font-weight: bold;
+    padding:10px;
+    border:2px solid rgb(51, 51, 51);
+    margin-left:40%;
+    margin-right:40%;
+    margin-bottom:8%;
+    border-radius:40px;
+}
+.Features .content span
+{
+    color:#dbc285;
+    font-size:40px;
+    font-weight: bold;
+    margin-top: 10%;
+}
+.Features .content 
+{
+    color:#dbc285;
+    font-size:40px;
+    font-weight: bold;
+    margin-left:-50%;
+    margin-bottom:40%
+}
+.Features .content h5
+{
+    color:#ffffff;
+    font-size:20px;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-bottom: 0%
+}
+.Features .content h6
+{
+    color:rgb(219, 219, 219);
+    font-size:21px;
+}
+.Features .content h2
+{
+    color:#dbc285;
+    font-size:45px;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 3%
+}
+
+.Features .content img
+{
+  margin-top: -20%;
+  background:#1b1b1b;
+  padding:10px;
+  border-radius: 50px;
+  position: absolute;
+  animation: animate4 1.5s linear infinite
+}
+.Features .Image img
+{
+   width:720px;
+   height:390px;
+   margin-left:-8%;
+   border-radius: 30px;
+   border:1px solid #dbc285;
+   margin-bottom: 3%
+}
+.Features .content2 span
+{
+    color:#dbc285;
+    font-size:40px;
+    font-weight: bold;
+    margin-top: 10%;
+}
+.Features .content2 
+{
+    color:#dbc285;
+    font-size:40px;
+    font-weight: bold;
+    margin-bottom:40%;
+   margin-right:-25%;
+  
+}
+.Features .content2 h5
+{
+    color:#ffffff;
+    font-size:20px;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-bottom: 3%
+}
+.Features .content2 h6
+{
+    color:rgb(219, 219, 219);
+    font-size:21px;
+}
+.Features .content2 h2
+{
+    color:#dbc285;
+    font-size:45px;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 3%
+}
+
+.Features .content2 img
+{
+  margin-top: -20%;
+  background:#1b1b1b;
+  padding:10px;
+  border-radius: 50px;
+  position: absolute;
+  animation: animate4 1.5s linear infinite
+}
+.Features .Image2 img
+{
+   width:720px;
+   height:390px;
+   border-radius: 30px;
+   border:1px solid #dbc285;
+   margin-bottom: 3%;
+   margin-left:-40%;
+ 
+}
+.Features .Image2 img:hover , .Features .Image img:hover
+{
+  transition:0.9s;
+  box-shadow:5px 5px 10px black;
+}
+
+/*End of Features section*/
+
+
+/*Start of Pricing table section*/
+.Pricing-Table
+{
+   background:url(../Images/cover.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top:150px;
+    padding-bottom:150px;
+    
+}
+.Pricing-Table h1
+{
+    color:#dbc285;
+    font-size:50px;
+    font-weight: bold;
+    padding:10px;
+    background:#262626;
+    margin-left:40%;
+    margin-right:40%;
+    margin-bottom:2%;
+    border-radius:40px;
+}
+.Pricing-Table .content
+{
+    background:#262626;
+    border-radius:5%;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin:8%;
+}
+.Pricing-Table .content h2
+{
+    color:#ffffff;
+    font-weight: bold;
+    background:#dbc285;
+    border-radius: 4px;
+}
+.Pricing-Table .content h3
+{
+    color:#dbc285;
+    font-size:45px;
+}
+.Pricing-Table .content h4
+{
+    color:#eeeeee;
+    margin-bottom:20%;
+}
+.Pricing-Table .content p
+{
+    color:#dfdfdf;
+    margin-bottom:4%;
+    margin-left:18%;
+    font-size:17px;
+    font-weight: bold
+}
+.Pricin-Table .content .Link 
+{
+  margin:10%;
+}
+.Pricing-Table .content .Button
+{
+    background:none;
+    border:none;
+    border-radius:20px;
+    margin-bottom:8%;
+    margin-top:8%
+}
+.Pricing-Table .content .Button a
+{
+    text-decoration: none;
+    color:#998675;
+    padding-right:45px;
+    padding-left:45px;
+    padding-top:12px;
+    padding-bottom:12px;
+    border:2px solid #998675;
+    border-radius:30px;
+    font-weight: bold;
+    
+}
+.Pricing-Table .content .Button a:hover
+{
+    background:#dbc285;
+    border:2px solid #dbc285;
+    color:rgb(34, 34, 34);
+    transition:0.9s;
+}
+
+
+/*End of Pricing table section*/
+
+
+
+/*Start of Gallery section*/
+
+.Gallery
+{
+    padding-top:180px;
+    padding-bottom:5px;
+    margin-top:10%;
+}
+.Gallery h1
+{
+    color:#dbc285;
+    font-size:50px;
+    font-weight: bold;
+    padding:10px;
+    border:2px solid rgb(51, 51, 51);
+    margin-left:40%;
+    margin-right:40%;
+    margin-bottom:2%;
+    border-radius:40px;
+}
+.Gallery .Image img
+{
+    width:340px;
+    height:190px;
+    margin:5%;
+    border:1px solid #dbc285;
+    border-radius: 20px;
+    display: block
+}
+.Gallery .Image
+{
+    position:relative;
+    cursor: pointer;
+}
+.Gallery .Image .Hover
+{
+    width:0px;
+    margin-left:5%;
+    height:190px;
+    background:rgb(0,0,0,0.4);
+    position:absolute;
+    top:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    transition:0.5s ease;
+}
+.Gallery .Image:hover .Hover
+{
+    width:340px;
+}
+.Gallery .Image .Hover a
+{
+    color:white;
+    font-size:20px;
+}
+/*End of Gallery section*/
+
+
+
+
+/*Start of Form section*/
+
+.Form
+{
+    margin-top:10%;
+    padding-top:150px;
+    padding-bottom:150px;
+    background:#202020;
+}
+.Form h1
+{
+    color:#dbc285;
+    font-size:50px;
+    font-weight: bold;
+    padding:10px;
+    border:2px solid rgb(51, 51, 51);
+    margin-left:40%;
+    margin-right:40%;
+    margin-bottom:1%;
+    border-radius:40px;
+}
+.Form input , .Form select , .Form option , .Form textarea
+{
+    font-size:25px;
+    font-weight: bold;
+    border-radius:25px;
+    border:none;
+}
+.form-group
+{
+    margin:0 20%;
+}
+.Form label
+{
+    font-size:20px;
+    color:white;
+    font-weight: bold;
+}
+.Form button
+{
+   
+    margin-top:3%;
+    width:60.5%;
+    margin-left:20%;
+    padding:5px;
+    font-size:25px;
+    font-weight: bold;
+    border-radius: 25px;
+    color:#998675;
+    background:none;
+    border:2px solid #998675;
+}
+.Form button:hover
+{
+   
+    background:#dbc285;
+    border: 2px solid #dbc285;
+    color:rgb(34, 34, 34);
+    transition:0.9s;
+}
+
+
+/*End of Form section*/
+
+
+/*Start of Footer section*/
+ .Footer
+ {
+    
+    padding-top:200px;
+    padding-bottom:150px;
+    background:#161616;
+ }
+ .Footer h1
+ {
+     color:#dbc285;
+     font-weight: bold;
+     margin:2%;
+ }
+ .Footer a , .Footer p
+ {
+     color:white;
+     margin-bottom:2%;
+ }
+ .Footer .link
+  {
+   padding:10px;
+   margin:20px;
+   background:#0e0e0e;
+   border-radius:20px;
+   font-size:20px;
+   color:white;
+  }
+  .Footer .link:hover
+  {
+  
+   background:#ffffff;
+   transition:0.9s;
+   color:#0e0e0e;
+  }
+
+/*End of Footer section*/
+
+
+
+
+/*Start of Keyframes*/
+@keyframes fadeOut
+ {
+    100% 
+    {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes zoom
+{
+  from
+  {
+      transform:scale(1.5,1.5)
+  }
+  to
+  {
+    transfo5m:scale(1,1)
+
+  }
+}
+@keyframes animate
+{
+  from
+  {
+      opacity:0;
+      transform:scale(1.5);
+  }
+  to
+  {
+      opacity:1;
+      transform:scale(0.9)
+  }
+}
+@keyframes animate2
+{
+  from
+  {
+      opacity:0;
+     margin-left:-50%;
+  }
+  to
+  {
+    opacity:1;
+    margin-left:0%;
+  }
+}
+@keyframes animate3
+{
+  from
+  {
+      opacity:0;
+     margin-top:50%;
+  }
+  to
+  {
+    opacity:1;
+    margin-top:0%;
+  }
+}
+@keyframes animate4
+{
+    0% {
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+    50% {
+        -webkit-transform: translate(-50%, 10px);
+        transform: translate(-50%, 10px);
+    }
+    
+    100% {
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+   
+}
+/*End of Keyframes*/
+
+/*Start of Mediaquery*/
+@media (max-width: 702px) 
+{
+   .navbar
+   {
+       padding:2px;
+   }
+   .carousel-caption h2
+   {
+       margin-top:8%;
+       font-size:50px;
+   }
+   .carousel-caption h4
+   {
+       font-size:17.5px;
+   }
+   .carousel-caption .button a
+   {
+       font-size: 10px;
+   }
+   .carousel .carousel-item img
+   {
+       margin-top:5%;
+       width:100%;
+       height:100%;
+   }
+   .carousel-caption .button a
+   {
+    padding-right:20px;
+    padding-left:20px;
+   }
+   .carousel-inner
+   {
+    margin-top:-6%
+   }
+   .About-Us h1
+   {
+    font-size:50px;
+    margin-left:20%;
+    margin-right:20%;
+    margin-bottom:5%;
+   }  
+   .Features h1
+   {
+    margin-left:20%;
+    margin-right:20%;
+    margin-bottom:15%;
+   }
+   .Features .Image img , .Features .Image2 img
+   {
+    width:430px;
+    height:230px;
+    margin-left:0%;
+    margin-right:0%;
+    border-radius: 30px;
+    border:1px solid #dbc285;
+    margin-bottom: 10%
+   }
+   .Features .content 
+   {
+    color:#dbc285;
+    font-size:40px;
+    font-weight: bold;
+    margin-left:0%;
+    margin-bottom:40%
+   }
+
+   .Features .content2 
+   {
+    color:#dbc285;
+    font-size:40px;
+    font-weight: bold;
+    margin-bottom:40%;
+    margin-right:0%;
+   }
+   .Pricing-Table h1
+   {
+       margin-left:15%;
+       margin-right:15%;
+       margin-bottom:5%;
+   }
+   .Pricing-Table .content
+   { 
+    margin-right:15%;
+    margin-left:15%;
+   }
+   .Gallery h1
+   {
+    margin-left:25%;
+    margin-right:25%;
+    margin-bottom:2%;
+   }
+   .Gallery .Image img
+   { 
+    margin-left:13%;
+   }
+   .Gallery .Image .Hover
+   {
+    margin-left:13%;
+   }
+   .Form h1
+   {
+    font-size:50px;
+    margin-left:20%;
+    margin-right:20%;
+    margin-bottom:5%;
+   } 
+   
+
+}
+
+@media (min-width: 767px) 
+{
+    .navbar
+    {
+        padding:5px;
+    }
+    .carousel-caption h2
+    {
+        font-size:70px;
+    }
+    .carousel-caption h4
+    {
+        font-size:35px;
+    }
+    .carousel-caption .button a
+    {
+        font-size: 12.5px;
+    }
+    .carousel .carousel-item img
+    {
+        width:100%;
+        height:100%;
+    }
+    .About-Us h1
+    {
+     font-size:50px;
+     margin-left:20%;
+     margin-right:20%;
+     margin-bottom:5%;
+    }  
+    .Features h1
+    {
+     margin-left:20%;
+     margin-right:20%;
+     margin-bottom:15%;
+    }
+    .Features .Image img , .Features .Image2 img
+    {
+     width:750px;
+     height:400px;
+     margin-left:0%;
+     margin-right:0%;
+     border-radius: 30px;
+     border:1px solid #dbc285;
+     margin-bottom: 10%
+    }
+    .Features .content 
+    {
+     color:#dbc285;
+     font-size:40px;
+     font-weight: bold;
+     margin-left:0%;
+     margin-bottom:40%
+    }
+ 
+    .Features .content2 
+    {
+     color:#dbc285;
+     font-size:40px;
+     font-weight: bold;
+     margin-bottom:40%;
+     margin-right:0%;
+    }
+    .Pricing-Table h1
+    {
+        margin-left:20%;
+        margin-right:20%;
+        margin-bottom:5%;
+    }
+    .Pricing-Table .content
+    { 
+     margin-right:25%;
+     margin-left:25%;
+    }
+    .Gallery h1
+    {
+     margin-left:20%;
+     margin-right:20%;
+     margin-bottom:2%;
+    }
+    .Gallery .Image img
+    { 
+     margin-left:8%;
+     width:600px;
+     height:300px;
+     
+    }
+    .Gallery .Image .Hover
+    {
+     margin-left:8%;
+     width:0px;
+     height:300px;
+     
+    }
+    .Gallery .Image:hover .Hover
+    {
+    width:600px;
+    }
+    .Form h1
+   {
+    font-size:50px;
+    margin-left:15%;
+    margin-right:15%;
+    margin-bottom:5%;
+   } 
+   
+ 
+   
+}
+
+@media (min-width: 1200px) 
+{
+    .navbar
+    {
+        padding:15px;
+    }
+    .carousel-caption h2
+    {
+        font-size:100px;
+    }
+    .carousel-caption h4
+    {
+        font-size:37.5px;
+    }
+    .carousel-caption .button a
+    {
+        font-size: 25px;
+    }
+    .About-Us h1
+    {
+        font-size:50px;
+        margin-left:40%;
+        margin-right:40%;
+        margin-bottom:3%;
+    }  
+    .Features h1
+    {
+      margin-left:40%;
+      margin-right:40%;
+      margin-bottom:8%;
+    }
+    .Features .Image img 
+    {
+        width:720px;
+        height:390px;
+        margin-left:-8%;
+        margin-bottom: 3%
+    }
+    .Features .Image2 img
+    {
+     width:720px;
+     height:390px;
+     margin-bottom: 3%;
+     margin-left:-40%;
+   }
+    .Features .content 
+    {
+      font-size:40px;
+      margin-left:-50%;
+      margin-bottom:40%;
+    }
+ 
+    .Features .content2 
+    {
+     color:#dbc285;
+     font-size:40px;
+     font-weight: bold;
+     margin-bottom:40%;
+     margin-right:-25%;
+    }
+    .Pricing-Table h1
+    {
+        margin-left:40%;
+        margin-right:40%;
+        margin-bottom:2%;
+    }
+    .Pricing-Table .content
+    {
+       margin:8%;
+    }
+    .Gallery h1
+    {
+     margin-left:40%;
+     margin-right:40%;
+     margin-bottom:2%;
+    }
+    .Gallery .Image img
+    {
+        width:340px;
+        height:190px;
+        margin:5%;
+        border:1px solid #dbc285;
+        border-radius: 20px;
+        display: block
+    }
+    .Gallery .Image
+    {
+        position:relative;
+        cursor: pointer;
+    }
+    .Gallery .Image .Hover
+    {
+        width:0px;
+        margin-left:5%;
+        height:190px;
+        background:rgb(0,0,0,0.4);
+        position:absolute;
+        top:0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 20px;
+        transition:0.5s ease;
+    }
+    .Gallery .Image:hover .Hover
+    {
+    width:340px;
+    }
+    .Form h1
+    {
+      
+        margin-left:40%;
+        margin-right:40%;
+        margin-bottom:1%;
+     
+    }   
+
+}
+
+/*End of Mediaquery*/
